@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Einfaches Formular</title>
+        <link rel="stylesheet" href="/static/styles.css">
+        <title>Formular</title>
+    </head>
+
+    <body>
+        <form action="/action_page.php" method="get">
+            <p>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name">
+            </p>
+            
+            <p>
+                <label for="email">E-Mail:</label><br>
+                <input type="email" id="email" name="email">
+            </p>
+            
+            <p>
+                <label for="nachricht">Nachricht:</label><br>
+                <textarea name="nachricht"></textarea>
+            </p>
+
+            <p>
+                <label for="checkbox">Checkbox:</label><br>
+                <input type="checkbox" name="checkbox">
+            </p>
+            
+            <p>
+                <button type="submit">Absenden</button>
+            </p>
+        </form>
+    </body>
+</html>

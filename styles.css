@@ -1,0 +1,21 @@
+input {
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+textarea {
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);  
+}
+
+button {
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);  
+}
+
+input, textarea {
+    border: 1px solid;
+    outline: none;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+}
